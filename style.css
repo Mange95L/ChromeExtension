@@ -1,0 +1,63 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  min-height: 100px;
+  padding: 0;
+  width: 160px;
+}
+
+a:link,
+a:visited {
+  color: #000;
+  outline: 0;
+  text-decoration: none;
+}
+
+.shortcut-content {
+  padding: 0 22px;
+}
+
+.shortcut-icons {
+  border-top: 0.5px solid #dadada;
+  height: 50px;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-content: center;
+}
+
+.flex {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+  border-bottom: 0.5px solid #dadada;
+  margin-top: 10px;
+}
+
+.flex .fa {
+  font-size: 60px;
+  color: #1a1919;
+}
+
+.flex .fa:hover {
+  color: #4abd73;
+
+  transition: opacity 0.2s ease-in-out;
+}
+
+.centerxl {
+  text-align: center;
+  color: #b8b8b8;
+}
+
+.forTheIcon {
+  text-align: center;
+  margin-top: 0;
+  color: #b8b8b8;
+}
